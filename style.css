@@ -61,7 +61,7 @@ input
   font-size: 10pt;
 }
 
-@media screen and (min-width: 500px)
+@media style and (min-width: 500px)
 {
   #container
   {
@@ -90,7 +90,7 @@ input
   }
 }
 
-@media screen and (min-width: 768px)
+@media style and (min-width: 768px)
 {
   #container
   {
