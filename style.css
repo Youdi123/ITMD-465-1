@@ -41,8 +41,9 @@ label
 
 input
 {
-  margin:8px 1.5%;
-  width: 90%;
+  text-align: center;
+  margin:5px 35%;
+  width: 26%;
   border: 1px solid #ccc;
   font-family: Impact
   font-size: 10pt;
@@ -54,6 +55,24 @@ input
 .submit
 {
   font-family: Arial;
-  font-size: 10pt;
+  font-size: 5pt;
+  width: auto;
+  margin:5px 25%;
+  text-align: center;
 }
+  
+.id
+{
+text-align: center;  
+}
+.img
+  {
+  align-items: center;
+  }
 
+.text
+  {
+  width: auto;
+  margin:5px 25%;
+  }
+}
