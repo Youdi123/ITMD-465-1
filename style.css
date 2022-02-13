@@ -65,9 +65,15 @@ input
 {
 text-align: center;  
 }
-.img
+.p
   {
-  align-items: center;
+  text-align: center;
+    height: 150px;
+  width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   }
 
 .text
