@@ -10,30 +10,31 @@
 <body>
 <main id="content">
   <form method="get" action="#null">
-    <h1>Please fill out form below:</h1>
+    <h2>ITMD-456 Lab 1 - Youdi Chen - ychen322@hawk.iit.edu</h2>
+    <h1>Sales Tax Calculator</h1>
     <fieldset>
+      <p>Enter Subtotal and Tax Rate and click the Calculate button to show the sales tax amount and the total. Click the clear button to clear out all form fields. Tax rate should be a percentage but do not enter a % sign in the tax rate box.</p>
       <div><p>
-        <label for="first_name_field">First Name:</label>
-        <input type="text" id="first_name_field" name="first_name_field">
+        <label for="subtotal_field">Subtotal:</label>
+        <input type="number" id="subtotal_field" name="subtotal_field">
       </p></div>
       <div><p>
-        <label for="last_name_field">Last Name:</label>
-        <input type="text" id="last_name_field" name="last_name_field">
+        <label for="tax_rate_field">Tax Rate:</label>
+        <input type="number" id="tax_rate_field" name="tax_rate_field">
       </p></div>
       <div><p>
-        <label for="phone_field">Phone Number:</label>
-        <input type="number" id="phone_field" name="phone_field">
+        <label for="sales_tax_field">Sales Tax:</label>
+        <input type="number" id="sales_tax_field" name="sales_tax_field">
       </p></div>
       <div><p>
-        <label for="email_field">Email Adress:</label>
-        <input type="text" id="email_field" name="email_field">
-      </p></div>
-      <div><p>
-        <label for="date_of_birth_field">Date of Birth:</label>
-        <input type="date" id="date_of_birth_field" name="date_of_birth_field">
-      </p></div>
+        <label for="total_field">Total:</label>
+        <input type="number" id="total_field" name="total_field">
+      </p></div> 
+      <p class=submit><input type="submit" value="Calxulate Tax and Total"><input type="submit" value="Clear"></p>
     </fieldset>
-    <p class=submit><input type="submit" value="Submit"></p>
+    <fieldset id="image">
+      <img src="picture/1.jpg" alt="1">
+    </fieldset>
   </form>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
